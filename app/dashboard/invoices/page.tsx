@@ -7,7 +7,7 @@ const fakeInvoices = [
     // Add more fake invoices as needed
   ];
 
-export default function() {
+  const InvoicesPage: React.FC = () => {
     return (
         <div>
           <h1>Invoices Page</h1>
@@ -34,3 +34,5 @@ export default function() {
         </div>
       );
 }
+
+export default InvoicesPage;

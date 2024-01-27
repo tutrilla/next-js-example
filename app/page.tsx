@@ -5,7 +5,7 @@ import { lusitana } from './ui/fonts';
 import styles from '@/app/ui/home.module.css';
 import Image from 'next/image';
 
-export default function Page() {
+const Page: React.FC = () => {
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
@@ -49,3 +49,5 @@ export default function Page() {
     </main>
   );
 }
+
+export default Page;
