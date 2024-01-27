@@ -1,0 +1,17 @@
+/* invoices.module.css */
+
+.invoiceTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .invoiceTable th, .invoiceTable td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .invoiceTable th {
+    background-color: #f2f2f2;
+  }
+  
